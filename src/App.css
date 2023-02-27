@@ -16,7 +16,10 @@ body {
   background-color: var(--body-bg);
   position: relative;
   color: var(--primary-color);
-  height: 330vh;
+  height: 530vh;
+}
+.fullscreen {
+  height: fit-content !important;
 }
 #walid {
   width: 100%;
@@ -48,14 +51,8 @@ body {
   height: 100% !important;
   border-radius: 8px !important;
 }
-#vi:hover {
-  transform: scale(1.2);
-  transform-origin: center 100px;
-}
-
-video::-webkit-media-controls {
-  display: none !important;
-}
+ 
+ 
 
 body,
 h1,
@@ -250,6 +247,13 @@ button:hover::after,
 button:hover::before {
   width: 50%;
 }
+.react-multiple-carousel__arrow--right::after,
+.react-multiple-carousel__arrow--right::before,
+.react-multiple-carousel__arrow--left::after,
+.react-multiple-carousel__arrow--left::before{
+  background-color: transparent;
+}
+ 
 
 /*== Apropos ==*/
 #apropos {
@@ -540,8 +544,6 @@ button:hover::before {
 #projects .projects_demo {
   width: 100%;
   height: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
   padding-top: 2rem;
 }
 #projects .projects_demo .icon_box {
@@ -590,7 +592,7 @@ div[data-testid="loading-overlay-wrapper"] {
   margin-top: 5px;
 }
  
-#projects .projects_demo .content button {
+#projects .projects_demo .content > button {
   width: fit-content;
   height: fit-content;
   border: dashed 9px var(--purple);

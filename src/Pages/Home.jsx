@@ -6,7 +6,7 @@ const Education = React.lazy(() => import("../Components/Education"));
 const Compétences = React.lazy(() => import("../Components/Compétences"))
 const Certifications = React.lazy(() => import("../Components/Certifications"))
 const Projects = React.lazy(() => import("../Components/Projects"))
-
+const Experiences = React.lazy(() => import("../Components/Experiences"));
 const Home = () => {
   return (
     <section>
@@ -28,6 +28,9 @@ const Home = () => {
  </React.Suspense>
  <React.Suspense fallback={<div>...Loading</div>}>
   <Projects/>
+ </React.Suspense>
+ <React.Suspense fallback={<div>...Loading</div>}>
+  <Experiences/>
  </React.Suspense>
 
  

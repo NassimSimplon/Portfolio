@@ -15,7 +15,43 @@
         "video":"https://player.vimeo.com/progressive_redirect/playback/790665520/rendition/540p/file.mp4?loc=external&oauth2_token_id=57447761&signature=c5858ce72ec414634e2c3b9d24730a07381a9077c87a998f80a57bfb018eebd2",
         "github":"http://github",
         "url":"http://github.com"
-    }],
+    },
+    {
+      "_id":2,
+      "title":"e-commaerce",
+      "description":"@BharathShetty Yes, you could separate into multiple spans/divs/whatever. And if you mean if it's possible by css only then no it's not possible to match n worlds by css. You can do an overflow but it won't match words. ",
+      "image":"https://images.pexels.com/photos/15129223/pexels-photo-15129223.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+      "video":"https://player.vimeo.com/progressive_redirect/playback/790665520/rendition/540p/file.mp4?loc=external&oauth2_token_id=57447761&signature=c5858ce72ec414634e2c3b9d24730a07381a9077c87a998f80a57bfb018eebd2",
+      "github":"http://github",
+      "url":"http://github.com"
+  },
+  {
+   "_id":3,
+   "title":"e-commaerce",
+   "description":"@BharathShetty Yes, you could separate into multiple spans/divs/whatever. And if you mean if it's possible by css only then no it's not possible to match n worlds by css. You can do an overflow but it won't match words. ",
+   "image":"https://images.pexels.com/photos/15129223/pexels-photo-15129223.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+   "video":"https://player.vimeo.com/progressive_redirect/playback/790665520/rendition/540p/file.mp4?loc=external&oauth2_token_id=57447761&signature=c5858ce72ec414634e2c3b9d24730a07381a9077c87a998f80a57bfb018eebd2",
+   "github":"http://github",
+   "url":"http://github.com"
+},
+{
+   "_id":4,
+   "title":"e-commaerce",
+   "description":"@BharathShetty Yes, you could separate into multiple spans/divs/whatever. And if you mean if it's possible by css only then no it's not possible to match n worlds by css. You can do an overflow but it won't match words. ",
+   "image":"https://images.pexels.com/photos/15129223/pexels-photo-15129223.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+   "video":"https://player.vimeo.com/progressive_redirect/playback/790665520/rendition/540p/file.mp4?loc=external&oauth2_token_id=57447761&signature=c5858ce72ec414634e2c3b9d24730a07381a9077c87a998f80a57bfb018eebd2",
+   "github":"http://github",
+   "url":"http://github.com"
+},
+{
+   "_id":5,
+   "title":"e-commaerce",
+   "description":"@BharathShetty Yes, you could separate into multiple spans/divs/whatever. And if you mean if it's possible by css only then no it's not possible to match n worlds by css. You can do an overflow but it won't match words. ",
+   "image":"https://images.pexels.com/photos/15129223/pexels-photo-15129223.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+   "video":"https://player.vimeo.com/progressive_redirect/playback/790665520/rendition/540p/file.mp4?loc=external&oauth2_token_id=57447761&signature=c5858ce72ec414634e2c3b9d24730a07381a9077c87a998f80a57bfb018eebd2",
+   "github":"http://github",
+   "url":"http://github.com"
+}],
     "educations":[{
        "_id":1,
        "title":"Technicien",

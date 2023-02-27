@@ -4,6 +4,7 @@ import { ModalReducer } from "./Modal/Slicer";
 import { skillsReducer } from "./Compétences/Slicer";
 import { CertificationsReducer } from "./Certifications/Slicer";
 import { ProjectsReducer } from "./Projects/Slicer";
+import { ExperiencesReducer } from "./Experiences/Slicer";
 
 const store = configureStore({
     reducer:{
@@ -11,7 +12,8 @@ const store = configureStore({
    modal:ModalReducer,
    skills:skillsReducer,
    certif:CertificationsReducer,
-   projects:ProjectsReducer
+   projects:ProjectsReducer,
+   experiences:ExperiencesReducer
     }
 })
 export default store;
